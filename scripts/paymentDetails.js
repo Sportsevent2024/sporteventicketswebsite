@@ -135,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
             // Ajoute un gestionnaire d'événements change pour les inputs radio
             form.addEventListener('change', (event) => {
+                 event.preventDefault();
                 if (event.target.name === 'status') {
                    // console.log(event.target.getAttribute('data--id'));
                     paymentBtn.setAttribute('href', 'https://paypal.me/sportseventst/'+event.target.getAttribute('data--id'));
@@ -143,77 +144,4 @@ document.addEventListener('DOMContentLoaded', () =>{
             });
 });
 
-    /*
-  paypal.Buttons({
-    createOrder: function(data, actions) {
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: '0.01'
-          }
-        }]
-      });
-    },
-    onApprove: function(data, actions) {
-      return actions.order.capture().then(function(details) {
-        alert('Transaction completed by ' + ${email});
-      });
-    }
-  }).render('#paypal-button-container');
-
-
-  paypal.Buttons({
-    createOrder: function(data, actions) {
-
-        // Create the PayPal order
-        return actions.order.create({
-            purchase_units: [{
-                amount: {
-                    value: total
-                },
-                description: `Tickets (${category}) - ${ticketCount} at $${price} each`
-            }],
-            payer: {
-                email_address: email
-            }
-        });
-    },
-    onApprove: function(data, actions) {
-        return actions.order.capture().then(function(details) {
-            alert('Transaction completed by ' + data );
-            // Redirect or show a success message
-        });
-    }
-}).render('#paypal-button-container');
-
-  
-
-//A utiliser
-
-// Afficher le résumé du paiement
-  document.getElementById('payment-summary').innerText = 
-  `Email: ${email}\nNombre de Tickets: ${ticketCount}\nCatégorie: ${category}\nPrix par Ticket: ${price}\nTotal à Payer: ${total}`;
-
-// Rendre le bouton PayPal
-paypal.Buttons({
-  createOrder: function(data, actions) {
-      return actions.order.create({
-          purchase_units: [{
-              amount: {
-                  value: total
-              },
-              description: `Tickets (${category}) - ${ticketCount} à $${price} chacun`
-          }],
-          payer: {
-              email_address: email
-          }
-      });
-  },
-  onApprove: function(data, actions) {
-      return actions.order.capture().then(function(details) {
-          alert('Transaction effectuée par ' + details.payer.name.given_name);
-          // Rediriger ou afficher un message de succès
-      });
-  }
-}).render('#paypal-button-container');
-*/
+ 
