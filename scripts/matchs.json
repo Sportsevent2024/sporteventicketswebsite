@@ -1,0 +1,150 @@
+
+     [
+      {
+        "id": 1,
+        "date": "2024-07-05T17:00:00Z",
+        "simpleDate" : "Fri 05 Jul",
+        "teams": {
+          "home": "Spain",
+          "away": "Germany",
+          "hour": "6:00 pm"
+        },
+        "stadium": "/assets/idMatch1.png",
+        "location": "MHPArena • Stuttgart",
+        "categories": [
+          {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 602
+          },
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 833
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 1002
+          },
+          {
+            "name": "Fans First",
+            "color": " ",
+            "price": 1255
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 1390
+          },
+          {
+            "name": "Vip Club",
+            "color": " ",
+            "price": 3520
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "2024-07-05T20:00:00Z",
+        "simpleDate" : "Fri 05 Jul",
+        "teams": {
+          "home": "France",
+          "away": "Portugal",
+          "hour": "9:00 pm"
+        },
+        "stadium": "/assets/idMatch2.png",
+        "location": "Volksparkstadion • Hamburg",
+        "categories": [
+
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 416
+          },
+           {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 464
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 550
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 740
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "date": "2024-07-06T17:00:00Z",
+        "simpleDate" : "Sat 06 Jul",
+        "teams": {
+          "home": "England",
+          "away": "Switzerland",
+          "hour": "6:00 pm"
+        },
+        "stadium": "/assets/idMatch3.png",
+        "location": "Merkur Spiel-Arena • Düsseldorf",
+        "categories": [
+          {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 695
+          },
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 788
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 834
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 1850
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "date": "2024-07-06T20:00:00Z",
+        "simpleDate" : "Sat 06 Jul",
+        "teams": {
+          "home": "Netherlands",
+          "away": "Turkey",
+          "hour": "9:00 pm"
+        },
+        "stadium": "/assets/idMatch4.png",
+        "location": "Olympiastadion Berlin • Berlin",
+        "categories": [
+          {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 648
+          },
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 740
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 1110
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 1570
+          }
+        ]
+      }
+    ]

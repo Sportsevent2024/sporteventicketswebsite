@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Event Tickets • Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="scripts/script.js" defer></script>
+    <link rel="shortcut icon" href="/assets/UEFA_Euro_2024_Logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-slate-50">
+<!-- Header-->
+<header class="bg-white shadow poppins">
+    <div class="mx-auto max-w-screen-xl ">
+      <div class="flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div class="flex-1 md:flex md:items-center md:gap-12">
+          <a class="block text-blue-950 font-semibold sm:text-2xl" href="index.html">
+            <span class="sr-only">Home</span>
+            Sports Event Tickets
+          </a>
+        </div>
+  
+        <div class="md:flex md:items-center md:gap-12">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm">
+  
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="/tickets/index.html"> Tickets </a>
+              </li>
+
+              <li>
+                <a class="text-gray-500 transition hover:text-gray-500/75" href="contact.html"> Contact </a>
+              </li>
+
+            </ul>
+          </nav>
+  
+          <div class="flex items-center gap-4">
+            <div class="block md:hidden">
+              <button id="nav_btn" class="rounded p-2 text-gray-600 transition hover:text-gray-600/75">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                </svg>
+                
+              </button>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+                <!-- mobile nav-->
+                <nav aria-label="Global" id="mobile_nav" class="block md:hidden py-4 -translate-x-full z-20 transition duration-300 ease-in-out fixed  bg-white/75 w-full">
+                  <ul class="flex items-center flex-col justify-start gap-6 text-sm">
+                    <li>
+                      <a class="text-gray-500 transition hover:text-gray-500/75" href="/tickets/index.html"> Tickets </a>
+                    </li>
+      
+                    <li>
+                      <a class="text-gray-500 transition hover:text-gray-500/75" href="contact.html"> Contact </a>
+                    </li>
+      
+                  </ul>
+                </nav>
+    </div>
+</header>
+
+<main class="poppins">
+ <!--First section-->
+ <div class="flex justify-center lg:mx-auto py-4 mx-6 lg:w-1/2">
+  <div class="flex w-full h-48 lg:h-60 overflow-hidden rounded-md shadow-lg">
+    <div class="lg:w-1/2 p-4 flex flex-col bg-blue-950 text-white justify-between">
+        <h1 class="text-4xl font-bold justify-between mt-2">Euro 2024</h1>  
+            <button class="lg:w-fit p-2 text-xs font-medium border border-white rounded-md transition-colors duration-200 ease-out hover:bg-white hover:text-blue-950">
+              <a href="/tickets/index.html" class="inline-block">View All Tickets</a>
+            </button>
+   </div>
+  <div class="w-full bg-cover bg-left bg-[url('/assets/euro2024_img.jpg')]"></div>
+  </div>
+ </div>
+
+ <!--Section Match du Jour-->
+ <div class="mx-6 lg:mx-16 content_jj">
+  <!--Matchs view-->
+ </div>
+ 
+
+ <!-- Banner bg-[url(/assets/euro2024_img.jpg)]-->
+<section class="relative mx-8 bg-cover bg-center bg-no-repeat mb-12">
+<!-- <div
+  class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+></div> -->
+
+<div  class="relative mx-auto w-full px-4 py-2 sm:px-6 lg:flex  lg:items-center lg:px-8">
+  <div class=" text-center">
+    <h1 class="text-4xl font-extrabold  text-blue-950 sm:text-5xl sm:leading-snug">  Experience Euro 2024 Live: Don't Miss the Action!
+    </h1>
+
+    <p class="mt-4  text-sm sm:text-base">
+      Book your tickets for Euro 2024 and experience the excitement of European football live, witnessing historic moments and the exploits of the biggest stars. Don't miss out on this unique opportunity and buy your tickets today to be part of the legend!
+    </p>
+
+    <div class="mt-8 flex flex-wrap gap-4 justify-center text-center">
+      <a
+        href="/tickets/index.html"
+        class="block w-4/5  inline-block  rounded bg-white border border-blue-950 px-12 py-3 text-sm font-medium text-blue-950 shadow hover:bg-blue-950 hover:text-white transition ease-out duration-300 focus:outline-none focus:ring active:bg-blue-950 sm:w-auto"
+      >
+        Take your tickets now !!!
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+
+</main>
+
+
+<!--Footer-->
+<footer class="bg-white poppins relative mt-12 bottom-0 w-full">
+    <div class="mx-auto max-w-screen-xl px-4 pb-6 sm:px-6 lg:px-8">
+  
+      <div class=" border-t border-gray-100 pt-6">
+        <div class="text-center sm:flex sm:justify-between sm:text-left">
+          <p class="text-sm text-gray-500">
+            <span class="block sm:inline">All rights reserved.</span>
+  
+            <a class="inline-block text-blue-950 underline transition hover:text-blue-950/75" href="conditions.html">    Terms & Conditions</a>
+            <span>&middot;</span>
+            <a class="inline-block text-blue-950 underline transition hover:text-blue-950/75" href="privacy.html">
+              Privacy Policy
+            </a>
+          </p>
+  
+          <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2024 Sports Event Tickets</p>
+        </div>
+      </div>
+    </div>
+</footer>
+</body>
+</html>

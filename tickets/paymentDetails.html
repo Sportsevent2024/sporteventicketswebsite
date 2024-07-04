@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments Details - Quarter Finals Euro 2024</title>
+    <link rel="shortcut icon" href="../assets/UEFA_Euro_2024_Logo.svg.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/scripts/paymentDetails.js" defer></script>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=EPAG3R2UYWECN"></script>
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>  
+
+</body>
+
+<script>
+    /*
+paypal.Buttons({
+  env: 'production', // 'sandbox' pour le mode Sandbox, 'production' pour le mode production
+  client: {
+    clientID: 'EPAG3R2UYWECN' // Remplacez par votre client ID PayPal
+  },
+  fundingSources: [
+    paypal.FUNDINGSOURCE_PAYPAL, // Permettre le paiement par solde PayPal
+    paypal.FUNDINGSOURCE_CARD // Permettre le paiement par carte bancaire
+  ],
+  createOrder: function(data, actions) {
+    return actions.order.create({
+      purchase_units: [{
+        amount: {
+          value: total, // Remplacez par le montant du paiement
+          currency: 'EUR' // Remplacez par la devise du paiement
+        }
+      }]
+    });
+  },
+  onApprove: function(data, actions) {
+    return actions.order.capture().then(function(orderData) {
+      // Traiter la confirmation du paiement
+      console.log('Payment capture approved:', orderData);
+    });
+  },
+  onError: function(err) {
+    console.error('Error:', err);
+  }
+}).render('#paypal-buttons'); // Rendre les boutons dans le conteneur
+*/
+</script>
+</html>
