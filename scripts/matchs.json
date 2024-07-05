@@ -16,12 +16,12 @@
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 416
+            "price": 480
           },
            {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 464
+            "price": 364
           },
           {
             "name": "Category 1",
@@ -31,7 +31,7 @@
           {
             "name": "Prime Seats",
             "color": "bg-[#49b251]",
-            "price": 740
+            "price": 640
           }
         ]
       },
@@ -50,22 +50,22 @@
           {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 695
+            "price": 595
           },
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 788
+            "price": 688
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 834
+            "price": 734
           },
           {
             "name": "Prime Seats",
             "color": "bg-[#49b251]",
-            "price": 1850
+            "price": 1120
           }
         ]
       },
@@ -84,22 +84,22 @@
           {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 648
+            "price": 548
           },
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 740
+            "price": 640
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 1110
+            "price": 910
           },
           {
             "name": "Prime Seats",
             "color": "bg-[#49b251]",
-            "price": 1570
+            "price": 1170
           }
         ]
       }
