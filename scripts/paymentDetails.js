@@ -103,7 +103,7 @@ secGrid.innerHTML = `
              <li>Make sure you complete all the steps with PayPal and choose the correct option</li>
              <li>You'll receive confirmation after you pay</li>
           </ul>
-                    <p class="text-sm my-4">If you have encountered a problem during payment, please  <a class="text-sky-400" href="mailto:eventfamousticket@gmail.com?subject=Payment%20issues&body=Hello%20Admin,%0D%0A%0D%0Awe%20have%20encountered%20a%20problem%20when%20paying%20for%20tickets.%0D%0AI'm%20buying%20${ticketCount}%20tickets%20for%20the%20${matchVersus}%20game%20in%20section%20${category}.%20This%20is%20a%20total%20of%20%E2%82%AC${total}.%0D%0APlease%20check%20and%20let%20us%20know%20the%20next%20steps.%0D%0A%0D%0AAll%20the%20best.">click here</a> to keep us informed.</p>
+                    <p class="text-sm my-4">If you have encountered a problem during payment, please  <a class="text-sky-400" href="mailto:sportseventticket@gmail.com?subject=Payment%20issues&body=Hello%20Admin,%0D%0A%0D%0Awe%20have%20encountered%20a%20problem%20when%20paying%20for%20tickets.%0D%0AI'm%20buying%20${ticketCount}%20tickets%20for%20the%20${matchVersus}%20game%20in%20section%20${category}.%20This%20is%20a%20total%20of%20%E2%82%AC${total}.%0D%0APlease%20check%20and%20let%20us%20know%20the%20next%20steps.%0D%0A%0D%0AAll%20the%20best.">click here</a> to keep us informed.</p>
 
                    <a target="_blank" id="paypal_Btn" href="https://paypal.me/sportseventst/${total}"class="paypal_btn inline-block mt-8 w-1/2 mx-auto flex rounded-lg py-4 px-8 bg-yellow-500 h-fit hover:bg-white hover:border-blue-950 transition-colors ease-out duration-200 border border-yellow-500 "><img src="/assets/paypalX.svg" alt="" class="w-24 m-auto"></a>
          </div>
