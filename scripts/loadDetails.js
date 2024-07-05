@@ -180,7 +180,7 @@ function viewDetails(matchID) {
                                 matchContent.teams.home
                               } vs. ${
               matchContent.teams.away
-            } - Round of 16 Euro 2024</div>
+            } - Quarter Finals Euro 2024</div>
                               <div class="text-gray-400 text-xs">${
                                 matchContent.simpleDate
                               }, ${matchContent.teams.hour}, ${
