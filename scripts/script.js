@@ -14,7 +14,7 @@ btnNav.addEventListener('click', ()=>{
 //Fin Navbar
 
 // afficher les matchs du jour j
-  
+  const contDay = document.querySelector('.content_jj');
 // Fonction pour afficher les matchs du jour J
   function displayTodayMatches() {
     const today = new Date().toISOString().split('T')[0]; // Obtenez la date d'aujourd'hui au format YYYY-MM-DD
@@ -23,16 +23,7 @@ btnNav.addEventListener('click', ()=>{
    if(todayMatches){
     let i = 0;
     for(i = 0; i < todayMatches.length; i++){
-      const contDay = document.querySelector('.content_jj');
-      const textDay = document.createElement('div');
-      textDay.className = 'text-3xl text-blue-950 font-bold mt-8';
-      textDay.textContent = 'Today';
-      contDay.appendChild(textDay);
-
-
-      const contentJj = document.createElement('div');
-      contentJj.className = 'next_days grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 mx-auto w-full my-2';
-      contDay.appendChild(contentJj);
+      const contentJj = document.querySelector('.next_days');
 
       const cardMatch = document.createElement('div');
       cardMatch.className = "grid grid-cols-6 md:mx-auto lg:grid-cols-1 bg-white justify-center w-full items-center rounded-md p-2 shadow";
