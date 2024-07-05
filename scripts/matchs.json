@@ -2,50 +2,6 @@
      [
       {
         "id": 1,
-        "date": "2024-07-05T17:00:00Z",
-        "simpleDate" : "Fri 05 Jul",
-        "teams": {
-          "home": "Spain",
-          "away": "Germany",
-          "hour": "6:00 pm"
-        },
-        "stadium": "/assets/idMatch1.png",
-        "location": "MHPArena • Stuttgart",
-        "categories": [
-          {
-            "name": "Category 3",
-            "color": "bg-[#a490f5]",
-            "price": 602
-          },
-          {
-            "name": "Category 2",
-            "color": "bg-[#576984]",
-            "price": 833
-          },
-          {
-            "name": "Category 1",
-            "color": "bg-[#86f2f2]",
-            "price": 1002
-          },
-          {
-            "name": "Fans First",
-            "color": " ",
-            "price": 1255
-          },
-          {
-            "name": "Prime Seats",
-            "color": "bg-[#49b251]",
-            "price": 1390
-          },
-          {
-            "name": "Vip Club",
-            "color": " ",
-            "price": 3520
-          }
-        ]
-      },
-      {
-        "id": 2,
         "date": "2024-07-05T20:00:00Z",
         "simpleDate" : "Fri 05 Jul",
         "teams": {
@@ -80,7 +36,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "date": "2024-07-06T17:00:00Z",
         "simpleDate" : "Sat 06 Jul",
         "teams": {
@@ -114,7 +70,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 3,
         "date": "2024-07-06T20:00:00Z",
         "simpleDate" : "Sat 06 Jul",
         "teams": {
