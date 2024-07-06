@@ -2,40 +2,6 @@
      [
       {
         "id": 1,
-        "date": "2024-07-06T17:00:00Z",
-        "simpleDate" : "Sat 06 Jul",
-        "teams": {
-          "home": "England",
-          "away": "Switzerland",
-          "hour": "6:00 pm"
-        },
-        "stadium": "/assets/idMatch3.png",
-        "location": "Merkur Spiel-Arena • Düsseldorf",
-        "categories": [
-          {
-            "name": "Category 3",
-            "color": "bg-[#a490f5]",
-            "price": 595
-          },
-          {
-            "name": "Category 2",
-            "color": "bg-[#576984]",
-            "price": 688
-          },
-          {
-            "name": "Category 1",
-            "color": "bg-[#86f2f2]",
-            "price": 734
-          },
-          {
-            "name": "Prime Seats",
-            "color": "bg-[#49b251]",
-            "price": 1120
-          }
-        ]
-      },
-      {
-        "id": 2,
         "date": "2024-07-06T20:00:00Z",
         "simpleDate" : "Sat 06 Jul",
         "teams": {
