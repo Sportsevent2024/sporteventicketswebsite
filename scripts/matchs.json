@@ -1,0 +1,72 @@
+
+     [
+      {
+        "id": 1,
+        "date": "2024-07-09T20:00:00Z",
+        "simpleDate" : "Tue Jul 09",
+        "teams": {
+          "home": "Spain",
+          "away": "France",
+          "hour": "9:00 pm"
+        },
+        "stadium": "/assets/idMatch1.png",
+        "location": "Allianz Arena, Munich",
+        "categories": [
+          {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 390
+          },
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 480
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 740
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 1390
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "2024-07-10T20:00:00Z",
+        "simpleDate" : "Wed Jul 10",
+        "teams": {
+          "home": "Netherlands",
+          "away": "England",
+          "hour": "9:00 pm"
+        },
+        "stadium": "/assets/idMatch2.png",
+        "location": "Signal Iduna Park, North-Rhine Westphalia",
+        "categories": [
+
+          {
+            "name": "Category 2",
+            "color": "bg-[#576984]",
+            "price": 724
+          },
+           {
+            "name": "Category 3",
+            "color": "bg-[#a490f5]",
+            "price": 360
+          },
+          {
+            "name": "Category 1",
+            "color": "bg-[#86f2f2]",
+            "price": 860
+          },
+          {
+            "name": "Prime Seats",
+            "color": "bg-[#49b251]",
+            "price": 1148
+          }
+        ]
+      }
+    ]
