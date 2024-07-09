@@ -10,27 +10,27 @@
           "hour": "9:00 pm"
         },
         "stadium": "/assets/idMatch1.png",
-        "location": "Allianz Arena, Munich",
+        "location": "Münich Football Arena, Münich",
         "categories": [
           {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 390
+            "price": 180
           },
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 480
+            "price": 250
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 740
+            "price": 430
           },
           {
             "name": "Prime Seats",
             "color": "bg-[#49b251]",
-            "price": 1390
+            "price": 610
           }
         ]
       },
@@ -43,29 +43,24 @@
           "away": "England",
           "hour": "9:00 pm"
         },
-        "stadium": "/assets/idMatch2.png",
-        "location": "Signal Iduna Park, North-Rhine Westphalia",
+        "stadium": "/assets/id2.png",
+        "location": "BVB Stadion Dortmund, Dortmund",
         "categories": [
 
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 724
+            "price": 408
           },
            {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 360
+            "price": 312
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 860
-          },
-          {
-            "name": "Prime Seats",
-            "color": "bg-[#49b251]",
-            "price": 1148
+            "price": 520
           }
         ]
       }
