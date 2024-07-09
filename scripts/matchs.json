@@ -50,17 +50,17 @@
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 408
+            "price": 352
           },
            {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 312
+            "price": 288
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 520
+            "price": 410
           }
         ]
       }
