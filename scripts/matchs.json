@@ -1,41 +1,8 @@
 
      [
+
       {
         "id": 1,
-        "date": "2024-07-09T20:00:00Z",
-        "simpleDate" : "Tue Jul 09",
-        "teams": {
-          "home": "Spain",
-          "away": "France",
-          "hour": "9:00 pm"
-        },
-        "stadium": "/assets/idMatch1.png",
-        "location": "Münich Football Arena, Münich",
-        "categories": [
-          {
-            "name": "Category 3",
-            "color": "bg-[#a490f5]",
-            "price": 180
-          },
-          {
-            "name": "Category 2",
-            "color": "bg-[#576984]",
-            "price": 250
-          },
-          {
-            "name": "Category 1",
-            "color": "bg-[#86f2f2]",
-            "price": 430
-          },
-          {
-            "name": "Prime Seats",
-            "color": "bg-[#49b251]",
-            "price": 610
-          }
-        ]
-      },
-      {
-        "id": 2,
         "date": "2024-07-10T20:00:00Z",
         "simpleDate" : "Wed Jul 10",
         "teams": {
@@ -50,17 +17,17 @@
           {
             "name": "Category 2",
             "color": "bg-[#576984]",
-            "price": 352
+            "price": 204
           },
            {
             "name": "Category 3",
             "color": "bg-[#a490f5]",
-            "price": 288
+            "price": 128
           },
           {
             "name": "Category 1",
             "color": "bg-[#86f2f2]",
-            "price": 410
+            "price": 256
           }
         ]
       }
